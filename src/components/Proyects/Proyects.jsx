@@ -3,7 +3,7 @@ import PageHeader from '../PageHeader/PageHeader';
 import { DiGitBranch } from 'react-icons/di'
 import imageOne from '../../img/DogsAppImage.jpg'
 import imageTwo from '../../img/WorkifyImage.png'
-import imageThree from '../../img/WebRegister.png'
+import imageThree from '../../img/WebRegisterImage.png'
 import imageFour from '../../img/Saludo-1.png'
 import './styles.scss'
 
