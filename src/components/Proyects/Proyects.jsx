@@ -3,7 +3,7 @@ import PageHeader from '../PageHeader/PageHeader';
 import { DiGitBranch } from 'react-icons/di'
 import imageOne from '../../img/DogsAppImage.jpg'
 import imageTwo from '../../img/WorkifyImage.png'
-import imageThree from '../../img/LogoDv.png'
+import imageThree from '../../img/WebRegister.png'
 import imageFour from '../../img/Saludo-1.png'
 import './styles.scss'
 
@@ -24,7 +24,7 @@ const portfolioData = [
         id: 3,
         name: 'Otro',
         image: imageThree,
-        link: ''
+        link: 'https://web-register-iota.vercel.app/'
     },
     {
         id: 4,
