@@ -22,7 +22,7 @@ const portfolioData = [
     },
     {
         id: 3,
-        name: 'Otro',
+        name: 'WebRegister',
         image: imageThree,
         link: 'https://web-register-iota.vercel.app/'
     },
