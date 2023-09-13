@@ -28,7 +28,7 @@ const portfolioData = [
     },
     {
         id: 4,
-        name: "SkyFly, en progreso...",
+        name: "SkyFly...",
         image: imageFour,
         link: ''
     }
