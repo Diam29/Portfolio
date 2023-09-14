@@ -18,18 +18,18 @@ const App = () => {
   return (
     <div className="App">
       {/* {
-        renderParticlesHomePage && (<ParticlesBackground/>)
+        renderParticlesHomePage && (<ParticlesBackground />)
       } */}
       <ParticlesBackground />
       <NavBar />
       <div className="App__main-page-content">
         <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/about" element={<About />} />
-          <Route path="/resume" element={<Resume />} />
-          <Route path="/skills" element={<Skills />} />
-          <Route path="/proyects" element={<Proyects />} />
-          <Route path='/contact' element={<Contact />} />
+          <Route path={"/"} element={<Home />} />
+          <Route path={"/about"} element={<About />} />
+          <Route path={"/resume"} element={<Resume />} />
+          <Route path={"/skills"} element={<Skills />} />
+          <Route path={"/proyects"} element={<Proyects />} />
+          <Route path={'/contact'} element={<Contact />} />
         </Routes>
       </div>
     </div>
