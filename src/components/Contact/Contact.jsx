@@ -27,11 +27,10 @@ const Contact = () => {
         emailjs
             .sendForm(serviceId, templateId, document.querySelector('form'), publicKey)
             .then((result) => {
-                // console.log('este es el log', result, ` este es message ${name} , este es email: ${email} , este es message ${message}`);
                 setName("");
                 setEmail("");
                 setMessage("");
-                alert(result.text);
+                console.log(result.text);
 
             }, (error) => {
                 alert(error.text);
