@@ -4,7 +4,7 @@ import { DiGitBranch } from 'react-icons/di'
 import imageOne from '../../img/DogsAppImage.jpg'
 import imageTwo from '../../img/WorkifyImage.png'
 import imageThree from '../../img/WebregisterImage.png'
-import imageFour from '../../img/academiaonline.png'
+import imageFour from '../../img/academiaOnline.png'
 import './styles.scss'
 
 const portfolioData = [
