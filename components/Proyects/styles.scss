@@ -1,17 +1,17 @@
-.portfolio{
-    
-    
-    &__content{
+.portfolio {
+
+
+    &__content {
         padding: 20px;
         width: 100%;
 
-        &__filter{
+        &__filter {
             display: inline-block;
             margin: 0 auto;
             border-radius: 25px;
             border: 1px solid var(--yellow-theme-main-color);
-        
-            li{
+
+            li {
                 font-size: 16px;
                 display: inline-block;
                 cursor: pointer;
@@ -21,46 +21,48 @@
                 padding: 12px 20px;
                 overflow: hidden;
                 transition: all 0.5s ease;
-            
-                &.active{
+
+                &.active {
                     background: var(--yellow-theme-main-color);
                     color: var(--yellow-theme-sub-text-color);
                     font-weight: 600;
                     border-radius: 25px;
+
                 }
             }
         }
 
-        &__cards{
+        &__cards {
             display: grid;
-            grid-template-columns: repeat(3,1fr);
+            grid-template-columns: repeat(3, 1fr);
             grid-auto-rows: auto;
             gap: 1rem;
             margin-top: 10px;
 
-            &__item{
+            &__item {
                 height: 366px;
                 cursor: pointer;
                 position: relative;
 
-                &:hover .overlay{
+                &:hover .overlay {
                     opacity: 1;
                 }
 
-                &__img-wrapper{
+                &__img-wrapper {
                     height: 100%;
 
-                    a{
+                    a {
                         height: 100%;
 
-                        img{
+                        img {
                             height: inherit;
                             object-fit: cover;
                             width: 100%;
                         }
                     }
                 }
-                .overlay{
+
+                .overlay {
                     position: absolute;
                     top: 0;
                     bottom: 0;
@@ -71,26 +73,26 @@
                     opacity: 0;
                     transition: 0.5s ease;
                     background-color: var(--yellow-theme-main-color);
-                
-                
-                    div{
+
+
+                    div {
                         position: absolute;
                         top: 50%;
                         left: 50%;
                         transform: translate(-50%, -50%);
                         text-align: center;
 
-                        p{
+                        p {
                             color: #000;
                             margin: 0px;
                             font-size: 4rem;
                             position: relative;
                             overflow: hidden;
                             white-space: nowrap;
-                            animation: typingEffect 1s steps(30,end);
+                            animation: typingEffect 1s steps(30, end);
                         }
 
-                        button{
+                        .button {
                             cursor: pointer;
                             margin-top: 16px;
                             padding: 10px 70px;
@@ -100,7 +102,9 @@
                             border: 1.5px solid #000;
                             border-radius: 4px;
                             font-weight: 500;
+
                         }
+
                     }
                 }
             }
@@ -109,41 +113,41 @@
 }
 
 
-@media only screen and (max-width: 480px){
-    .portfolio__content__filter > li{
+@media only screen and (max-width: 480px) {
+    .portfolio__content__filter>li {
         font-size: 11px;
     }
 
-    .portfolio__content__cards{
-        grid-template-columns: repeat(1,1fr);
+    .portfolio__content__cards {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
-@media only screen and (min-width: 481px) and (max-width: 767px){
-    .portfolio__content__filter > li{
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    .portfolio__content__filter>li {
         font-size: 14px;
     }
 
-    .portfolio__content__cards{
-        grid-template-columns: repeat(2,1fr);
-    
-        &__item{
+    .portfolio__content__cards {
+        grid-template-columns: repeat(2, 1fr);
 
-            .overlay{
-                div > p{
-                    font-size: 1rem;
+        &__item {
+
+            .overlay {
+                div>p {
+                    font-size: 2rem;
                 }
             }
         }
     }
 }
 
-@keyframes typingEffect{
-    from{
+@keyframes typingEffect {
+    from {
         width: 0;
     }
 
-    to{
+    to {
         width: 100%;
     }
 }

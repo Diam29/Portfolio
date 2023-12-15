@@ -86,7 +86,7 @@ const Skills = () => {
                                                 percent={skillItem.percentage}
                                                 strokeWidth="2"
                                                 strokeColor="var(--yellow-theme-main-color)"
-                                                trialWidth="2"
+                                                trialwidth="2"
                                                 strokeLinecap="square"
                                             />
                                         </div>

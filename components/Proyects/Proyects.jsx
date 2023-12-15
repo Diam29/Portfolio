@@ -28,9 +28,9 @@ const portfolioData = [
     },
     {
         id: 4,
-        name: "SkyFly, en progreso...",
+        name: "AcademiaOnline",
         image: imageFour,
-        link: ''
+        link: 'https://academiaonlineglobal.com/'
     }
 ]
 
@@ -98,7 +98,7 @@ const Proyects = () => {
                                         index === hoveredValue && (
                                             <div>
                                                 <p>{item.name}</p>
-                                                <button onClick={() => handlerVisitProject(item.link)}>Visit</button>
+                                                <button className='button' onClick={() => handlerVisitProject(item.link)}>Visit</button>
                                             </div>
                                         )
                                     }

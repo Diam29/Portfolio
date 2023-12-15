@@ -18,9 +18,6 @@ const Home = () => {
           <br />
           Full Stack Developer
         </h1>
-        {/* <div>
-          <img src={face} alt="Face" />
-        </div> */}
         <motion.div
           animate={{ y: 100 }}
           transition={{ duration: .5 }}>
